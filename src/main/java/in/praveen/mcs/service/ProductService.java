@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 public class ProductService {
     private final ProductReposirory productReposirory;
 
-    public void createproduct(ProductRequest productRequest){git clone
+    public void createproduct(ProductRequest productRequest){
         Product product = Product.builder()
                 .name(productRequest.name())
                 .description(productRequest.description())
